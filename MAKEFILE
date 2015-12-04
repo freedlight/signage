@@ -1,0 +1,11 @@
+
+demo:
+	bcc -3 -v -ms demo.c coms.lib
+
+sign:
+	bcc -3 -v -ms sign.c coms.lib
+
+tag:
+	bcc -3 -v -ms tag.c coms.lib
+
+
